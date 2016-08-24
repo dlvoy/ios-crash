@@ -1,0 +1,8 @@
+/node_modules
+node_modules
+test/*.pdf
+test/*.html
+nbproject/private/
+nbproject/
+project/
+test/

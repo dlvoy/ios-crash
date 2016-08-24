@@ -1,0 +1,31 @@
+{
+    "name": "ios-crash",
+    "version": "1.0.0",
+    "description": "Symbolicate iOS Crash Dumps",
+    "main": "lib/ios-crash-lib.js",
+    "author": "Dominik Dzienia <dominik.dzienia@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "ios",
+        "crash",
+        "dump",
+        "debug",
+        "tool",
+        "commandline"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dlvoy/ios-crash.git"
+    },
+    "dependencies": {
+        "commander": "2.9.0",
+        "chalk": "~1.1.3",
+        "filepath": "~1.1.0",
+        "pkginfo": "~0.4.0",
+        "shell-escape": "~0.2.0"
+    },
+    "preferGlobal": "true",
+    "bin": {
+        "ios-crash": "./bin/ios-crash"
+    }
+}
